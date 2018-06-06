@@ -1,0 +1,10 @@
+node_modules/
+errorShots/
+build/
+*.log
+
+# Generated data files
+data/
+
+# Generated result from junit reporter
+WDIO.*.xml

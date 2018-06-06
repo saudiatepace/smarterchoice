@@ -1,0 +1,33 @@
+{
+  "name": "web-automation-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/SmartStart/web-automation-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/SmartStart/web-automation-tests/issues"
+  },
+  "homepage": "https://gitlab.com/SmartStart/web-automation-tests#README",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webdriver": "^2.0.3",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chance": "^1.0.16",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-spec-reporter": "^0.1.4"
+  }
+}
