@@ -42,7 +42,7 @@ exports.config = {
 
     specs: [
         //'test/smarterChoice/login/*.js',
-        'test/smarterchoice/createCustomer/*.js'
+        'test/smarterChoice/createCustomer/*.js'
     ],
     // Patterns to exclude.
     exclude: [
